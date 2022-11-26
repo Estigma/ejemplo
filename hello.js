@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.ajax({
-        url: "https://pokeapi.co/api/v2/pokemon?limit=10&offset=0"
+        url: "https://pokeapi.co/api/v2/pokemon?limit=20&offset=0"
     }).then(function(data) {
 
         let ini = "<table class='table table-striped' border='2'>";
